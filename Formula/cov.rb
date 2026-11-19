@@ -4,13 +4,13 @@ class Cov < Formula
   version "1.0.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://downloads.kanopi-dev.com/cli/cov-v1.0.4/cov-aarch64-apple-darwin.tar.xz"
+      url "https://downloads.kanopicover.io/cli/cov-v1.0.4/cov-aarch64-apple-darwin.tar.xz"
       sha256 "3532a9db87c2e35905197551c8ed86a6b3c906f06119d75737ae7312be4ec752"
       mirror "https://github.com/kanopicover/covenant/releases/download/cov-v1.0.4/cov-aarch64-apple-darwin.tar.xz"
       sha256 "3532a9db87c2e35905197551c8ed86a6b3c906f06119d75737ae7312be4ec752"
     end
     if Hardware::CPU.intel?
-      url "https://downloads.kanopi-dev.com/cli/cov-v1.0.4/cov-x86_64-apple-darwin.tar.xz"
+      url "https://downloads.kanopicover.io/cli/cov-v1.0.4/cov-x86_64-apple-darwin.tar.xz"
       sha256 "3c9e7c10956dd4a827151d4c06cf22a60864c1473345b6411d073a6ddc2f228f"
       mirror "https://github.com/kanopicover/covenant/releases/download/cov-v1.0.4/cov-x86_64-apple-darwin.tar.xz"
       sha256 "3c9e7c10956dd4a827151d4c06cf22a60864c1473345b6411d073a6ddc2f228f"
@@ -18,13 +18,13 @@ class Cov < Formula
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://downloads.kanopi-dev.com/cli/cov-v1.0.4/cov-aarch64-unknown-linux-gnu.tar.xz"
+      url "https://downloads.kanopicover.io/cli/cov-v1.0.4/cov-aarch64-unknown-linux-gnu.tar.xz"
       sha256 "dcf7b323665b7146beee7b0c447e2061112daec201f2b4781bd8d57c667b464b"
       mirror "https://github.com/kanopicover/covenant/releases/download/cov-v1.0.4/cov-aarch64-unknown-linux-gnu.tar.xz"
       sha256 "dcf7b323665b7146beee7b0c447e2061112daec201f2b4781bd8d57c667b464b"
     end
     if Hardware::CPU.intel?
-      url "https://downloads.kanopi-dev.com/cli/cov-v1.0.4/cov-x86_64-unknown-linux-gnu.tar.xz"
+      url "https://downloads.kanopicover.io/cli/cov-v1.0.4/cov-x86_64-unknown-linux-gnu.tar.xz"
       sha256 "e1e3e99007fd00219dffbefde0238892a981ce40a3538b4be6ee8333eac5c9ef"
       mirror "https://github.com/kanopicover/covenant/releases/download/cov-v1.0.4/cov-x86_64-unknown-linux-gnu.tar.xz"
       sha256 "e1e3e99007fd00219dffbefde0238892a981ce40a3538b4be6ee8333eac5c9ef"
