@@ -1,33 +1,33 @@
 class Cov < Formula
   desc "Kanopi Covenant CLI"
   homepage "https://kanopi-dev.com"
-  version "1.0.7"
+  version "1.0.8"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://downloads.kanopicover.io/cli/cov-v1.0.7/cov-aarch64-apple-darwin.tar.xz"
-      sha256 "d6db4709edf5d7506744c3ceab35ca54fec52be148facce8fe0baf3b54b023f5"
-      mirror "https://github.com/kanopicover/covenant/releases/download/cov-v1.0.7/cov-aarch64-apple-darwin.tar.xz"
-      sha256 "d6db4709edf5d7506744c3ceab35ca54fec52be148facce8fe0baf3b54b023f5"
+      url "https://downloads.kanopicover.io/cli/cov-v1.0.8/cov-aarch64-apple-darwin.tar.xz"
+      sha256 "96c6fe335515daad28d9293ba485365dbb7c3cd9c986a5712181c0d7c27dc5d6"
+      mirror "https://github.com/kanopicover/covenant/releases/download/cov-v1.0.8/cov-aarch64-apple-darwin.tar.xz"
+      sha256 "96c6fe335515daad28d9293ba485365dbb7c3cd9c986a5712181c0d7c27dc5d6"
     end
     if Hardware::CPU.intel?
-      url "https://downloads.kanopicover.io/cli/cov-v1.0.7/cov-x86_64-apple-darwin.tar.xz"
-      sha256 "afb21f661c0e3bfdc6bdc62d89dd44aaf4fb8db8725d8ff6d644e49aad22bcdd"
-      mirror "https://github.com/kanopicover/covenant/releases/download/cov-v1.0.7/cov-x86_64-apple-darwin.tar.xz"
-      sha256 "afb21f661c0e3bfdc6bdc62d89dd44aaf4fb8db8725d8ff6d644e49aad22bcdd"
+      url "https://downloads.kanopicover.io/cli/cov-v1.0.8/cov-x86_64-apple-darwin.tar.xz"
+      sha256 "eff2175675c1fa6d1d049c6a84ffd024d14653d81b400dff498f22b66521c6b9"
+      mirror "https://github.com/kanopicover/covenant/releases/download/cov-v1.0.8/cov-x86_64-apple-darwin.tar.xz"
+      sha256 "eff2175675c1fa6d1d049c6a84ffd024d14653d81b400dff498f22b66521c6b9"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://downloads.kanopicover.io/cli/cov-v1.0.7/cov-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1d45e73e41d96e35ad63b9a36d24caf13834c3ff593d0686e468f496c80184e7"
-      mirror "https://github.com/kanopicover/covenant/releases/download/cov-v1.0.7/cov-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1d45e73e41d96e35ad63b9a36d24caf13834c3ff593d0686e468f496c80184e7"
+      url "https://downloads.kanopicover.io/cli/cov-v1.0.8/cov-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8a64a124a432f41bfc88825e39096d008c68e51836058dd835f92896fd4ee2a0"
+      mirror "https://github.com/kanopicover/covenant/releases/download/cov-v1.0.8/cov-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8a64a124a432f41bfc88825e39096d008c68e51836058dd835f92896fd4ee2a0"
     end
     if Hardware::CPU.intel?
-      url "https://downloads.kanopicover.io/cli/cov-v1.0.7/cov-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "612a708f58c4760d2caaf56b949588df83919220a59f85fff8aa53ec5e78031c"
-      mirror "https://github.com/kanopicover/covenant/releases/download/cov-v1.0.7/cov-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "612a708f58c4760d2caaf56b949588df83919220a59f85fff8aa53ec5e78031c"
+      url "https://downloads.kanopicover.io/cli/cov-v1.0.8/cov-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "51a6ea8b738b977f87426048fe4c622bc0d63774e6aef855fd2ffe5dbfd3a485"
+      mirror "https://github.com/kanopicover/covenant/releases/download/cov-v1.0.8/cov-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "51a6ea8b738b977f87426048fe4c622bc0d63774e6aef855fd2ffe5dbfd3a485"
     end
   end
   license "UNLICENSED"
